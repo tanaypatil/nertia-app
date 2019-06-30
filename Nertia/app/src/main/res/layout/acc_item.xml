@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sitem_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/sitem_bckg"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_ripple"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:weightSum="30">
+
+        <TextView
+            android:id="@+id/sitem_sname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="8"
+            android:gravity="start"
+            android:paddingBottom="2dp"
+            android:paddingEnd="2dp"
+            android:paddingStart="4dp"
+            android:paddingTop="2dp"
+            android:text="@string/servicename"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/sitem_scost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="12"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="@string/cost"
+            android:textColor="@color/colorTabIndicator"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/sitem_sdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:paddingBottom="2dp"
+            android:paddingEnd="4dp"
+            android:paddingStart="4dp"
+            android:paddingTop="2dp"
+            android:text="@string/date"
+            android:textColor="@color/popup_bckg" />
+    </LinearLayout>
+</LinearLayout>

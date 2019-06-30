@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.developer.tanay.nertia">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true">
+        <activity
+            android:name=".logsign.Login"
+            android:screenOrientation="portrait"
+            android:theme="@style/login">
+            <intent-filter>
+                <action android:name="android.intent.action.Login" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".logsign.OwnerSignup"
+            android:label="@string/osignup_title"
+            android:screenOrientation="portrait"
+            android:theme="@style/signup">
+            <intent-filter>
+                <action android:name="android.intent.action.oSignup" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".logsign.StylistSignup"
+            android:label="@string/sSignup"
+            android:screenOrientation="portrait"
+            android:theme="@style/signup">
+            <intent-filter>
+                <action android:name="android.intent.action.sSignup" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".oHome.Home"
+            android:label="@string/home"
+            android:screenOrientation="portrait"
+            android:theme="@style/home">
+            <intent-filter>
+                <action android:name="android.intent.action.Home" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="portrait"
+            android:theme="@style/splash.base">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Query"
+            android:label="@string/Query"
+            android:screenOrientation="portrait"
+            android:theme="@style/signup">
+            <intent-filter>
+                <action android:name="android.intent.action.Query" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".newTrends.NewTrends"
+            android:label="@string/newtrends"
+            android:screenOrientation="portrait"
+            android:theme="@style/signup">
+            <intent-filter>
+                <action android:name="android.intent.action.NewTrends" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".newTrends.CardDetail"
+            android:screenOrientation="portrait"
+            android:theme="@style/login">
+            <intent-filter>
+                <action android:name="android.intent.action.CardDetail" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".logsign.CreateSalon"
+            android:label="@string/create_salon"
+            android:screenOrientation="portrait"
+            android:theme="@style/signup">
+            <intent-filter>
+                <action android:name="android.intent.action.CreateSalon" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".beautyTraining.BeautyTraining"
+            android:label="@string/beauty_training"
+            android:screenOrientation="portrait"
+            android:theme="@style/signup">
+            <intent-filter>
+                <action android:name="android.intent.action.BeautyTraining" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".beautyTraining.BeautyDetail"
+            android:screenOrientation="portrait"
+            android:theme="@style/login">
+            <intent-filter>
+                <action android:name="android.intent.action.BeautyDetail" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".beautyTraining.BeautyTrainingVideo"
+            android:screenOrientation="landscape"
+            android:theme="@style/login">
+            <intent-filter>
+                <action android:name="android.intent.action.BeautyTrainingVideo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".oHome.PersonaDetail"
+            android:screenOrientation="portrait"
+            android:theme="@style/login">
+            <intent-filter>
+                <action android:name="android.intent.action.PersonaDetail" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".oHome.PersonaVideo"
+            android:screenOrientation="landscape"
+            android:theme="@style/login">
+            <intent-filter>
+                <action android:name="android.intent.action.PersonaVideo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".branchOptions.BranchOptions"
+            android:label="@string/change_branch"
+            android:screenOrientation="portrait"
+            android:theme="@style/signup">
+            <intent-filter>
+                <action android:name="android.intent.action.BranchOptions" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".oHome.SalesDetail"
+            android:label="@string/sales_detail"
+            android:screenOrientation="portrait"
+            android:theme="@style/signup">
+            <intent-filter>
+                <action android:name="android.intent.action.SalesDetail" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".dashboard.Dashboard"
+            android:label="@string/dashboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/signup">
+            <intent-filter>
+                <action android:name="android.intent.action.Dashboard" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".dashboard.ODashboard"
+            android:label="@string/myacc"
+            android:screenOrientation="portrait"
+            android:theme="@style/signup">
+            <intent-filter>
+                <action android:name="android.intent.action.ODashboard" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".dashboard.StylistEdit"
+            android:label="@string/editacc"
+            android:screenOrientation="portrait"
+            android:theme="@style/signup">
+            <intent-filter>
+                <action android:name="android.intent.action.StylistEdit" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".dashboard.OwnerEdit"
+            android:label="@string/editacc"
+            android:screenOrientation="portrait"
+            android:theme="@style/signup">
+            <intent-filter>
+                <action android:name="android.intent.action.OwnerEdit" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PdfDatePick"
+            android:label="@string/report"
+            android:screenOrientation="portrait"
+            android:theme="@style/signup">
+            <intent-filter>
+                <action android:name="android.intent.action.PdfDatePick" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".branchOptions.AddBranch"
+            android:label="@string/add_branch"
+            android:screenOrientation="portrait"
+            android:theme="@style/signup">
+            <intent-filter>
+                <action android:name="android.intent.action.AddBranch" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SPdfDatePick"
+            android:label="@string/report"
+            android:screenOrientation="portrait"
+            android:theme="@style/signup">
+            <intent-filter>
+                <action android:name="android.intent.action.SPdfDatePick" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".logsign.OEnterOtp"
+            android:label="@string/oenterotp"
+            android:screenOrientation="portrait"
+            android:theme="@style/signup">
+            <intent-filter>
+                <action android:name="android.intent.action.OEnterOtp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".logsign.SEnterOtp"
+            android:label="@string/oenterotp"
+            android:screenOrientation="portrait"
+            android:theme="@style/signup">
+            <intent-filter>
+                <action android:name="android.intent.action.SEnterOtp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".dashboard.SeditOtp"
+            android:label="@string/oenterotp"
+            android:screenOrientation="portrait"
+            android:theme="@style/signup">
+            <intent-filter>
+                <action android:name="android.intent.action.SeditOtp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".dashboard.OeditOtp"
+            android:label="@string/oenterotp"
+            android:screenOrientation="portrait"
+            android:theme="@style/signup">
+            <intent-filter>
+                <action android:name="android.intent.action.OeditOtp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

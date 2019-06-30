@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00c2b0</color>
+    <color name="colorPrimaryDark">#007066</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="foreground_material_light_1">#00000000</color>
+    <color name="text_color_primary">#ffffff</color>
+    <color name="white_hint">#c8ffffff</color>
+    <color name="spinner_bckg">#4d37ffcd</color>
+    <color name="colorPrimaryHint">#80111111</color>
+    <color name="popup_bckg">#171717</color>
+    <color name="menuitemcolor">#373737</color>
+    <color name="ripple">#C6C6C6</color>
+    <color name="separator">#5600b2a3</color>
+    <color name="cardText">#414141</color>
+    <color name="cardbckg">#7fb0b0b0</color>
+    <color name="colorTabIndicator">#000931</color>
+    <color name="rec_text">#474747</color>
+    <color name="rec_sep">#8000c2b0</color>
+    <color name="sitem_bckg">#3fcbcbcb</color>
+    <color name="date_bckg">#4d014d62</color>
+    <color name="card_title">#7650dcff</color>
+    <color name="signup_clr">#edfffd90</color>
+    <color name="get_pdf_btn">#ffffff</color>
+    <color name="separatory">#2e01ead7</color>
+    <color name="per_item">#5cffffff</color>
+</resources>
